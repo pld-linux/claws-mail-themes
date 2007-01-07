@@ -8,36 +8,36 @@ Group:		Themes
 Source0:	http://dl.sourceforge.net/sylpheed-claws/sylpheed-claws-themes-%{version}.tar.bz2
 # Source0-md5:	0c60eb6302f097fe3fec769ade7c8e9d
 URL:		http://www.claws-mail.net/themes.php
-Requires:	claws-mail-theme-Achileus-noname
-Requires:	claws-mail-theme-Black
-Requires:	claws-mail-theme-Blue_Anarchy
-Requires:	claws-mail-theme-Clawsola
-Requires:	claws-mail-theme-Crystal
-Requires:	claws-mail-theme-Everaldo_Kids
-Requires:	claws-mail-theme-Gnomaws
-Requires:	claws-mail-theme-Gnomeria
-Requires:	claws-mail-theme-Gorillaws
-Requires:	claws-mail-theme-Graphitte
-Requires:	claws-mail-theme-GurUnix
-Requires:	claws-mail-theme-Korillaws
-Requires:	claws-mail-theme-Kovico
-Requires:	claws-mail-theme-Logos
-Requires:	claws-mail-theme-Mongrel
-Requires:	claws-mail-theme-Mongrel2
-Requires:	claws-mail-theme-Mozilla
-Requires:	claws-mail-theme-New_Session
-Requires:	claws-mail-theme-OldDark
-Requires:	claws-mail-theme-Orbit-Claws
-Requires:	claws-mail-theme-Phoenity
-Requires:	claws-mail-theme-Plain_and_Bluish
-Requires:	claws-mail-theme-STW
-Requires:	claws-mail-theme-Skypilot-Clawssic
-Requires:	claws-mail-theme-SylZilla
-Requires:	claws-mail-theme-Sylpholution
-Requires:	claws-mail-theme-TangoClaws
-Requires:	claws-mail-theme-XeNtish
-Requires:	claws-mail-theme-tml02c
-Requires:	claws-mail-theme-tom2
+Requires:	claws-mail-theme-Achileus-noname = %{version}-%{release}
+Requires:	claws-mail-theme-Black = %{version}-%{release}
+Requires:	claws-mail-theme-Blue_Anarchy = %{version}-%{release}
+Requires:	claws-mail-theme-Clawsola = %{version}-%{release}
+Requires:	claws-mail-theme-Crystal = %{version}-%{release}
+Requires:	claws-mail-theme-Everaldo_Kids = %{version}-%{release}
+Requires:	claws-mail-theme-Gnomaws = %{version}-%{release}
+Requires:	claws-mail-theme-Gnomeria = %{version}-%{release}
+Requires:	claws-mail-theme-Gorillaws = %{version}-%{release}
+Requires:	claws-mail-theme-Graphitte = %{version}-%{release}
+Requires:	claws-mail-theme-GurUnix = %{version}-%{release}
+Requires:	claws-mail-theme-Korillaws = %{version}-%{release}
+Requires:	claws-mail-theme-Kovico = %{version}-%{release}
+Requires:	claws-mail-theme-Logos = %{version}-%{release}
+Requires:	claws-mail-theme-Mongrel = %{version}-%{release}
+Requires:	claws-mail-theme-Mongrel2 = %{version}-%{release}
+Requires:	claws-mail-theme-Mozilla = %{version}-%{release}
+Requires:	claws-mail-theme-New_Session = %{version}-%{release}
+Requires:	claws-mail-theme-OldDark = %{version}-%{release}
+Requires:	claws-mail-theme-Orbit-Claws = %{version}-%{release}
+Requires:	claws-mail-theme-Phoenity = %{version}-%{release}
+Requires:	claws-mail-theme-Plain_and_Bluish = %{version}-%{release}
+Requires:	claws-mail-theme-STW = %{version}-%{release}
+Requires:	claws-mail-theme-Skypilot-Clawssic = %{version}-%{release}
+Requires:	claws-mail-theme-SylZilla = %{version}-%{release}
+Requires:	claws-mail-theme-Sylpholution = %{version}-%{release}
+Requires:	claws-mail-theme-TangoClaws = %{version}-%{release}
+Requires:	claws-mail-theme-XeNtish = %{version}-%{release}
+Requires:	claws-mail-theme-tml02c = %{version}-%{release}
+Requires:	claws-mail-theme-tom2 = %{version}-%{release}
 Provides:	sylpheed-claws-themes = %{version}
 Obsoletes:	sylpheed-claws-themes
 BuildArch:	noarch
