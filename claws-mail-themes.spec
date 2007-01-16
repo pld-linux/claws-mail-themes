@@ -1,12 +1,12 @@
 Summary:	Themes for Claws-Mail (metapackage)
 Summary(pl):	Motywy dla programu Claws-Mail (metapakiet)
 Name:		claws-mail-themes
-Version:	20060615
-Release:	2
+Version:	20070116
+Release:	1
 License:	GPL
 Group:		Themes
-Source0:	http://dl.sourceforge.net/sylpheed-claws/sylpheed-claws-themes-%{version}.tar.bz2
-# Source0-md5:	0c60eb6302f097fe3fec769ade7c8e9d
+Source0:	http://dl.sourceforge.net/sylpheed-claws/%{name}-%{version}.tar.bz2
+# Source0-md5:	f75f14fac8927671aa0a17d896347035
 URL:		http://www.claws-mail.net/themes.php
 Requires:	claws-mail-theme-Achileus-noname = %{version}-%{release}
 Requires:	claws-mail-theme-Black = %{version}-%{release}
@@ -502,7 +502,7 @@ tom2 theme for Claws-Mail.
 Motyw tom2 dla Claws-Mail.
 
 %prep
-%setup -q -n sylpheed-claws-themes-%{version}
+%setup -q
 
 %build
 %configure
@@ -513,8 +513,6 @@ rm -rf $RPM_BUILD_ROOT
 
 %{__make} install \
 	DESTDIR=$RPM_BUILD_ROOT
-
-mv -f $RPM_BUILD_ROOT%{_datadir}/{sylpheed-claws,claws-mail}
 
 %clean
 rm -rf $RPM_BUILD_ROOT
@@ -533,7 +531,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %files -n claws-mail-theme-Blue_Anarchy
 %defattr(644,root,root,755)
-%doc blue_anarchy/Readme.txt
+%doc blue_anarchy/README
 %{_themesdir}/blue_anarchy
 
 %files -n claws-mail-theme-Clawsola
@@ -547,7 +545,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %files -n claws-mail-theme-Everaldo_Kids
 %defattr(644,root,root,755)
-%doc Everaldo_Kids/ReadMe
+%doc Everaldo_Kids/README
 %{_themesdir}/Everaldo_Kids
 
 %files -n claws-mail-theme-Gnomaws
@@ -572,7 +570,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %files -n claws-mail-theme-GurUnix
 %defattr(644,root,root,755)
-%doc GurUnix/{ChangeLog,README.txt}
+%doc GurUnix/{ChangeLog,README}
 %{_themesdir}/GurUnix
 
 %files -n claws-mail-theme-Korillaws
@@ -582,7 +580,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %files -n claws-mail-theme-Kovico
 %defattr(644,root,root,755)
-%{_themesdir}/Kovico-sylpheed
+%{_themesdir}/Kovico-claws
 
 %files -n claws-mail-theme-Logos
 %defattr(644,root,root,755)
@@ -603,7 +601,6 @@ rm -rf $RPM_BUILD_ROOT
 
 %files -n claws-mail-theme-New_Session
 %defattr(644,root,root,755)
-%doc New_Session/Readme.txt
 %{_themesdir}/New_Session
 
 %files -n claws-mail-theme-OldDark
