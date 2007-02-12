@@ -1,5 +1,5 @@
 Summary:	Themes for Claws-Mail (metapackage)
-Summary(pl.UTF-8):   Motywy dla programu Claws-Mail (metapakiet)
+Summary(pl.UTF-8):	Motywy dla programu Claws-Mail (metapakiet)
 Name:		claws-mail-themes
 Version:	20070116
 Release:	1
@@ -53,7 +53,7 @@ Motywy dla programu Claws-Mail (metapakiet).
 
 %package -n claws-mail-theme-Achileus-noname
 Summary:	Achileus-noname theme for Claws-Mail
-Summary(pl.UTF-8):   Motyw Achileus-noname dla Claws-Mail
+Summary(pl.UTF-8):	Motyw Achileus-noname dla Claws-Mail
 Group:		Themes
 Requires:	claws-mail
 Provides:	sylpheed-claws-theme-Achileus-noname
@@ -68,7 +68,7 @@ Motyw Achileus-noname dla Claws-Mail.
 
 %package -n claws-mail-theme-Black
 Summary:	Black theme for Claws-Mail
-Summary(pl.UTF-8):   Motyw Black dla Claws-Mail
+Summary(pl.UTF-8):	Motyw Black dla Claws-Mail
 Group:		Themes
 Requires:	claws-mail
 Provides:	sylpheed-claws-theme-Black
@@ -83,7 +83,7 @@ Motyw Black dla Claws-Mail.
 
 %package -n claws-mail-theme-Blue_Anarchy
 Summary:	Blue Anarchy theme for Claws-Mail
-Summary(pl.UTF-8):   Motyw Blue Anarchy dla Claws-Mail
+Summary(pl.UTF-8):	Motyw Blue Anarchy dla Claws-Mail
 Group:		Themes
 Requires:	claws-mail
 Provides:	sylpheed-claws-theme-Blue_Anarchy
@@ -98,7 +98,7 @@ Motyw Blue Anarchy dla Claws-Mail.
 
 %package -n claws-mail-theme-Clawsola
 Summary:	Clawsola theme for Claws-Mail
-Summary(pl.UTF-8):   Motyw Clawsola dla Claws-Mail
+Summary(pl.UTF-8):	Motyw Clawsola dla Claws-Mail
 Group:		Themes
 Requires:	claws-mail
 Provides:	sylpheed-claws-theme-Clawsola
@@ -113,7 +113,7 @@ Motyw Clawsola dla Claws-Mail.
 
 %package -n claws-mail-theme-Crystal
 Summary:	Crystal theme for Claws-Mail
-Summary(pl.UTF-8):   Motyw Crystal dla Claws-Mail
+Summary(pl.UTF-8):	Motyw Crystal dla Claws-Mail
 Group:		Themes
 Requires:	claws-mail
 Provides:	sylpheed-claws-theme-Crystal
@@ -128,7 +128,7 @@ Motyw Crystal dla Claws-Mail.
 
 %package -n claws-mail-theme-Everaldo_Kids
 Summary:	Everaldo Kids theme for Claws-Mail
-Summary(pl.UTF-8):   Motyw Everaldo Kids dla Claws-Mail
+Summary(pl.UTF-8):	Motyw Everaldo Kids dla Claws-Mail
 Group:		Themes
 Requires:	claws-mail
 Provides:	sylpheed-claws-theme-Everaldo_Kids
@@ -143,7 +143,7 @@ Motyw Everaldo Kids dla Claws-Mail.
 
 %package -n claws-mail-theme-Gnomaws
 Summary:	Gnomaws theme for Claws-Mail
-Summary(pl.UTF-8):   Motyw Gnomaws dla Claws-Mail
+Summary(pl.UTF-8):	Motyw Gnomaws dla Claws-Mail
 Group:		Themes
 Requires:	claws-mail
 Provides:	sylpheed-claws-theme-Gnomaws
@@ -158,7 +158,7 @@ Motyw Gnomaws dla Claws-Mail.
 
 %package -n claws-mail-theme-Gnomeria
 Summary:	Gnomeria theme for Claws-Mail
-Summary(pl.UTF-8):   Motyw Gnomeria dla Claws-Mail
+Summary(pl.UTF-8):	Motyw Gnomeria dla Claws-Mail
 Group:		Themes
 Requires:	claws-mail
 Provides:	sylpheed-claws-theme-Gnomeria
@@ -173,7 +173,7 @@ Motyw Gnomeria dla Claws-Mail.
 
 %package -n claws-mail-theme-Gorillaws
 Summary:	Gorillaws theme for Claws-Mail
-Summary(pl.UTF-8):   Motyw Gorillaws dla Claws-Mail
+Summary(pl.UTF-8):	Motyw Gorillaws dla Claws-Mail
 Group:		Themes
 Requires:	claws-mail
 Provides:	sylpheed-claws-theme-Gorillaws
@@ -188,7 +188,7 @@ Motyw Gorillaws dla Claws-Mail.
 
 %package -n claws-mail-theme-Graphitte
 Summary:	Graphitte theme for Claws-Mail
-Summary(pl.UTF-8):   Motyw Graphitte dla Claws-Mail
+Summary(pl.UTF-8):	Motyw Graphitte dla Claws-Mail
 Group:		Themes
 Requires:	claws-mail
 Provides:	sylpheed-claws-theme-Graphitte
@@ -203,7 +203,7 @@ Motyw Graphitte dla Claws-Mail.
 
 %package -n claws-mail-theme-GurUnix
 Summary:	GurUnix theme for Claws-Mail
-Summary(pl.UTF-8):   Motyw GurUnix dla Claws-Mail
+Summary(pl.UTF-8):	Motyw GurUnix dla Claws-Mail
 Group:		Themes
 Requires:	claws-mail
 Provides:	sylpheed-claws-theme-GurUnix
@@ -218,7 +218,7 @@ Motyw GurUnix dla Claws-Mail.
 
 %package -n claws-mail-theme-Korillaws
 Summary:	Korillaws theme for Claws-Mail
-Summary(pl.UTF-8):   Motyw Korillaws dla Claws-Mail
+Summary(pl.UTF-8):	Motyw Korillaws dla Claws-Mail
 Group:		Themes
 Requires:	claws-mail
 Provides:	sylpheed-claws-theme-Korillaws
@@ -233,7 +233,7 @@ Motyw Korillaws dla Claws-Mail.
 
 %package -n claws-mail-theme-Kovico
 Summary:	Kovico theme for Claws-Mail
-Summary(pl.UTF-8):   Motyw Kovico dla Claws-Mail
+Summary(pl.UTF-8):	Motyw Kovico dla Claws-Mail
 Group:		Themes
 Requires:	claws-mail
 Provides:	sylpheed-claws-theme-Kovico
@@ -248,7 +248,7 @@ Motyw Kovico dla Claws-Mail.
 
 %package -n claws-mail-theme-Logos
 Summary:	Logos theme for Claws-Mail
-Summary(pl.UTF-8):   Motyw Logos dla Claws-Mail
+Summary(pl.UTF-8):	Motyw Logos dla Claws-Mail
 Group:		Themes
 Requires:	claws-mail
 Provides:	sylpheed-claws-theme-Logos
@@ -263,7 +263,7 @@ Motyw Logos dla Claws-Mail.
 
 %package -n claws-mail-theme-Mongrel
 Summary:	Mongrel theme for Claws-Mail
-Summary(pl.UTF-8):   Motyw Mongrel dla Claws-Mail
+Summary(pl.UTF-8):	Motyw Mongrel dla Claws-Mail
 Group:		Themes
 Requires:	claws-mail
 Provides:	sylpheed-claws-theme-Mongrel
@@ -278,7 +278,7 @@ Motyw Mongrel dla Claws-Mail.
 
 %package -n claws-mail-theme-Mongrel2
 Summary:	Mongrel2 theme for Claws-Mail
-Summary(pl.UTF-8):   Motyw Mongrel2 dla Claws-Mail
+Summary(pl.UTF-8):	Motyw Mongrel2 dla Claws-Mail
 Group:		Themes
 Requires:	claws-mail
 Provides:	sylpheed-claws-theme-Mongrel2
@@ -293,7 +293,7 @@ Motyw Mongrel2 dla Claws-Mail.
 
 %package -n claws-mail-theme-Mozilla
 Summary:	Mozilla theme for Claws-Mail
-Summary(pl.UTF-8):   Motyw Mozilla dla Claws-Mail
+Summary(pl.UTF-8):	Motyw Mozilla dla Claws-Mail
 Group:		Themes
 Requires:	claws-mail
 Provides:	sylpheed-claws-theme-Mozilla
@@ -308,7 +308,7 @@ Motyw Mozilla dla Claws-Mail.
 
 %package -n claws-mail-theme-New_Session
 Summary:	New Session theme for Claws-Mail
-Summary(pl.UTF-8):   Motyw New Session dla Claws-Mail
+Summary(pl.UTF-8):	Motyw New Session dla Claws-Mail
 Group:		Themes
 Requires:	claws-mail
 Provides:	sylpheed-claws-theme-New_Session
@@ -323,7 +323,7 @@ Motyw New Session dla Claws-Mail.
 
 %package -n claws-mail-theme-OldDark
 Summary:	OldDark theme for Claws-Mail
-Summary(pl.UTF-8):   Motyw OldDark dla Claws-Mail
+Summary(pl.UTF-8):	Motyw OldDark dla Claws-Mail
 Group:		Themes
 Requires:	claws-mail
 Provides:	sylpheed-claws-theme-OldDark
@@ -338,7 +338,7 @@ Motyw OldDark dla Claws-Mail.
 
 %package -n claws-mail-theme-Orbit-Claws
 Summary:	Orbit-Claws theme for Claws-Mail
-Summary(pl.UTF-8):   Motyw Orbit-Claws dla Claws-Mail
+Summary(pl.UTF-8):	Motyw Orbit-Claws dla Claws-Mail
 Group:		Themes
 Requires:	claws-mail
 Provides:	sylpheed-claws-theme-Orbit-Claws
@@ -353,7 +353,7 @@ Motyw Orbit-Claws dla Claws-Mail.
 
 %package -n claws-mail-theme-Phoenity
 Summary:	Phoenity theme for Claws-Mail
-Summary(pl.UTF-8):   Motyw Phoenity dla Claws-Mail
+Summary(pl.UTF-8):	Motyw Phoenity dla Claws-Mail
 Group:		Themes
 Requires:	claws-mail
 Provides:	sylpheed-claws-theme-Phoenity
@@ -368,7 +368,7 @@ Motyw Phoenity dla Claws-Mail.
 
 %package -n claws-mail-theme-Plain_and_Bluish
 Summary:	Plain and Bluish theme for Claws-Mail
-Summary(pl.UTF-8):   Motyw Plain and Bluish dla Claws-Mail
+Summary(pl.UTF-8):	Motyw Plain and Bluish dla Claws-Mail
 Group:		Themes
 Requires:	claws-mail
 Provides:	sylpheed-claws-theme-Plain_and_Bluish
@@ -383,7 +383,7 @@ Motyw Plain and Bluish dla Claws-Mail.
 
 %package -n claws-mail-theme-STW
 Summary:	STW theme for Claws-Mail
-Summary(pl.UTF-8):   Motyw STW dla Claws-Mail
+Summary(pl.UTF-8):	Motyw STW dla Claws-Mail
 Group:		Themes
 Requires:	claws-mail
 Provides:	sylpheed-claws-theme-STW
@@ -398,7 +398,7 @@ Motyw STW dla Claws-Mail.
 
 %package -n claws-mail-theme-Skypilot-Clawssic
 Summary:	Skypilot-Clawssic theme for Claws-Mail
-Summary(pl.UTF-8):   Motyw Skypilot-Clawssic dla Claws-Mail
+Summary(pl.UTF-8):	Motyw Skypilot-Clawssic dla Claws-Mail
 Group:		Themes
 Requires:	claws-mail
 Provides:	sylpheed-claws-theme-Skypilot-Clawssic
@@ -413,7 +413,7 @@ Motyw Skypilot-Clawssic dla Claws-Mail.
 
 %package -n claws-mail-theme-Sylpholution
 Summary:	Sylpholution theme for Claws-Mail
-Summary(pl.UTF-8):   Motyw Sylpholution dla Claws-Mail
+Summary(pl.UTF-8):	Motyw Sylpholution dla Claws-Mail
 Group:		Themes
 Requires:	claws-mail
 Provides:	sylpheed-claws-theme-Sylpholution
@@ -428,7 +428,7 @@ Motyw Sylpholution dla Claws-Mail.
 
 %package -n claws-mail-theme-SylZilla
 Summary:	SylZilla theme for Claws-Mail
-Summary(pl.UTF-8):   Motyw SylZilla dla Claws-Mail
+Summary(pl.UTF-8):	Motyw SylZilla dla Claws-Mail
 Group:		Themes
 Requires:	claws-mail
 Provides:	sylpheed-claws-theme-SylZilla
@@ -443,7 +443,7 @@ Motyw SylZilla dla Claws-Mail.
 
 %package -n claws-mail-theme-TangoClaws
 Summary:	TangoClaws theme for Claws-Mail
-Summary(pl.UTF-8):   Motyw TangoClaws dla Claws-Mail
+Summary(pl.UTF-8):	Motyw TangoClaws dla Claws-Mail
 Group:		Themes
 Requires:	claws-mail
 Provides:	sylpheed-claws-theme-TangoClaws
@@ -458,7 +458,7 @@ Motyw TangoClaws dla Claws-Mail.
 
 %package -n claws-mail-theme-XeNtish
 Summary:	XeNtish theme for Claws-Mail
-Summary(pl.UTF-8):   Motyw XeNtish dla Claws-Mail
+Summary(pl.UTF-8):	Motyw XeNtish dla Claws-Mail
 Group:		Themes
 Requires:	claws-mail
 Provides:	sylpheed-claws-theme-XeNtish
@@ -473,7 +473,7 @@ Motyw XeNtish dla Claws-Mail.
 
 %package -n claws-mail-theme-tml02c
 Summary:	tml02c theme for Claws-Mail
-Summary(pl.UTF-8):   Motyw tml02c dla Claws-Mail
+Summary(pl.UTF-8):	Motyw tml02c dla Claws-Mail
 Group:		Themes
 Requires:	claws-mail
 Provides:	sylpheed-claws-theme-tml02c
@@ -488,7 +488,7 @@ Motyw tml02c dla Claws-Mail.
 
 %package -n claws-mail-theme-tom2
 Summary:	tom2 theme for Claws-Mail
-Summary(pl.UTF-8):   Motyw tom2 dla Claws-Mail
+Summary(pl.UTF-8):	Motyw tom2 dla Claws-Mail
 Group:		Themes
 Requires:	claws-mail
 Provides:	sylpheed-claws-theme-tom2
