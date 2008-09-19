@@ -1,17 +1,20 @@
 Summary:	Themes for Claws-Mail (metapackage)
 Summary(pl.UTF-8):	Motywy dla programu Claws-Mail (metapakiet)
 Name:		claws-mail-themes
-Version:	20070116
+Version:	20080822
 Release:	1
 License:	GPL
 Group:		Themes
-Source0:	http://dl.sourceforge.net/sylpheed-claws/%{name}-%{version}.tar.bz2
-# Source0-md5:	f75f14fac8927671aa0a17d896347035
-URL:		http://www.claws-mail.net/themes.php
+Source0:	http://www.claws-mail.org/themes/%{name}-%{version}.tar.gz
+# Source0-md5:	1ee502ba40af91db38f00d4b6c374653
+URL:		http://www.claws-mail.org/themes.php
 Requires:	claws-mail-theme-Achileus-noname = %{version}-%{release}
+Requires:	claws-mail-theme-A_Ducks_Claw = %{version}-%{release}
 Requires:	claws-mail-theme-Black = %{version}-%{release}
+Requires:	claws-mail-theme-Blaue_Klaue = %{version}-%{release}
 Requires:	claws-mail-theme-Blue_Anarchy = %{version}-%{release}
 Requires:	claws-mail-theme-Clawsola = %{version}-%{release}
+Requires:	claws-mail-theme-Coons_Blue = %{version}-%{release}
 Requires:	claws-mail-theme-Crystal = %{version}-%{release}
 Requires:	claws-mail-theme-Everaldo_Kids = %{version}-%{release}
 Requires:	claws-mail-theme-Gnomaws = %{version}-%{release}
@@ -20,7 +23,7 @@ Requires:	claws-mail-theme-Gorillaws = %{version}-%{release}
 Requires:	claws-mail-theme-Graphitte = %{version}-%{release}
 Requires:	claws-mail-theme-GurUnix = %{version}-%{release}
 Requires:	claws-mail-theme-Korillaws = %{version}-%{release}
-Requires:	claws-mail-theme-Kovico = %{version}-%{release}
+Requires:	claws-mail-theme-Kovico-claws = %{version}-%{release}
 Requires:	claws-mail-theme-Logos = %{version}-%{release}
 Requires:	claws-mail-theme-Mongrel = %{version}-%{release}
 Requires:	claws-mail-theme-Mongrel2 = %{version}-%{release}
@@ -30,14 +33,18 @@ Requires:	claws-mail-theme-OldDark = %{version}-%{release}
 Requires:	claws-mail-theme-Orbit-Claws = %{version}-%{release}
 Requires:	claws-mail-theme-Phoenity = %{version}-%{release}
 Requires:	claws-mail-theme-Plain_and_Bluish = %{version}-%{release}
-Requires:	claws-mail-theme-STW = %{version}-%{release}
 Requires:	claws-mail-theme-Skypilot-Clawssic = %{version}-%{release}
-Requires:	claws-mail-theme-SylZilla = %{version}-%{release}
+Requires:	claws-mail-theme-STW = %{version}-%{release}
 Requires:	claws-mail-theme-Sylpholution = %{version}-%{release}
+Requires:	claws-mail-theme-SylZilla = %{version}-%{release}
+Requires:	claws-mail-theme-Tango = %{version}-%{release}
 Requires:	claws-mail-theme-TangoClaws = %{version}-%{release}
-Requires:	claws-mail-theme-XeNtish = %{version}-%{release}
+Requires:	claws-mail-theme-TangoOrbit = %{version}-%{release}
 Requires:	claws-mail-theme-tml02c = %{version}-%{release}
 Requires:	claws-mail-theme-tom2 = %{version}-%{release}
+Requires:	claws-mail-theme-UltimateClawsMail = %{version}-%{release}
+Requires:	claws-mail-theme-XeNtish = %{version}-%{release}
+Requires:	claws-mail-theme-ZX = %{version}-%{release}
 Provides:	sylpheed-claws-themes = %{version}
 Obsoletes:	sylpheed-claws-themes
 BuildArch:	noarch
@@ -53,7 +60,7 @@ Motywy dla programu Claws-Mail (metapakiet).
 
 %package -n claws-mail-theme-Achileus-noname
 Summary:	Achileus-noname theme for Claws-Mail
-Summary(pl.UTF-8):	Motyw Achileus-noname dla Claws-Mail
+Summary(pl.UTF-8):	Motyw achileus-noname dla Claws-Mail
 Group:		Themes
 Requires:	claws-mail
 Provides:	sylpheed-claws-theme-Achileus-noname
@@ -64,11 +71,23 @@ Conflicts:	sylpheed-claws-themes <= 2.3.0-1
 Achileus-noname theme for Claws-Mail.
 
 %description -n claws-mail-theme-Achileus-noname -l pl.UTF-8
-Motyw Achileus-noname dla Claws-Mail.
+Motyw achileus-noname dla Claws-Mail.
+
+%package -n claws-mail-theme-A_Ducks_Claw
+Summary:	A_Ducks_Claw theme for Claws-Mail
+Summary(pl.UTF-8):	Motyw A_Ducks_Claw dla Claws-Mail
+Group:		Themes
+Requires:	claws-mail
+
+%description -n claws-mail-theme-A_Ducks_Claw
+A_Ducks_Claw theme for Claws-Mail.
+
+%description -n claws-mail-theme-A_Ducks_Claw -l pl.UTF-8
+Motyw A_Ducks_Claw dla Claws-Mail.
 
 %package -n claws-mail-theme-Black
 Summary:	Black theme for Claws-Mail
-Summary(pl.UTF-8):	Motyw Black dla Claws-Mail
+Summary(pl.UTF-8):	Motyw black dla Claws-Mail
 Group:		Themes
 Requires:	claws-mail
 Provides:	sylpheed-claws-theme-Black
@@ -79,11 +98,23 @@ Conflicts:	sylpheed-claws-themes <= 2.3.0-1
 Black theme for Claws-Mail.
 
 %description -n claws-mail-theme-Black -l pl.UTF-8
-Motyw Black dla Claws-Mail.
+Motyw black dla Claws-Mail.
+
+%package -n claws-mail-theme-Blaue_Klaue
+Summary:	Blaue_Klaue theme for Claws-Mail
+Summary(pl.UTF-8):	Motyw Blaue_Klaue dla Claws-Mail
+Group:		Themes
+Requires:	claws-mail
+
+%description -n claws-mail-theme-Blaue_Klaue
+Blaue_Klaue theme for Claws-Mail.
+
+%description -n claws-mail-theme-Blaue_Klaue -l pl.UTF-8
+Motyw Blaue_Klaue dla Claws-Mail.
 
 %package -n claws-mail-theme-Blue_Anarchy
-Summary:	Blue Anarchy theme for Claws-Mail
-Summary(pl.UTF-8):	Motyw Blue Anarchy dla Claws-Mail
+Summary:	Blue anarchy theme for Claws-Mail
+Summary(pl.UTF-8):	Motyw blue anarchy dla Claws-Mail
 Group:		Themes
 Requires:	claws-mail
 Provides:	sylpheed-claws-theme-Blue_Anarchy
@@ -91,10 +122,10 @@ Obsoletes:	sylpheed-claws-theme-Blue_Anarchy
 Conflicts:	sylpheed-claws-themes <= 2.3.0-1
 
 %description -n claws-mail-theme-Blue_Anarchy
-Blue Anarchy theme for Claws-Mail.
+Blue anarchy theme for Claws-Mail.
 
 %description -n claws-mail-theme-Blue_Anarchy -l pl.UTF-8
-Motyw Blue Anarchy dla Claws-Mail.
+Motyw blue anarchy dla Claws-Mail.
 
 %package -n claws-mail-theme-Clawsola
 Summary:	Clawsola theme for Claws-Mail
@@ -110,6 +141,18 @@ Clawsola theme for Claws-Mail.
 
 %description -n claws-mail-theme-Clawsola -l pl.UTF-8
 Motyw Clawsola dla Claws-Mail.
+
+%package -n claws-mail-theme-Coons_Blue
+Summary:	Coons_Blue theme for Claws-Mail
+Summary(pl.UTF-8):	Motyw Coons_Blue dla Claws-Mail
+Group:		Themes
+Requires:	claws-mail
+
+%description -n claws-mail-theme-Coons_Blue
+Coons_Blue theme for Claws-Mail.
+
+%description -n claws-mail-theme-Coons_Blue -l pl.UTF-8
+Motyw Coons_Blue dla Claws-Mail.
 
 %package -n claws-mail-theme-Crystal
 Summary:	Crystal theme for Claws-Mail
@@ -232,8 +275,8 @@ Korillaws theme for Claws-Mail.
 Motyw Korillaws dla Claws-Mail.
 
 %package -n claws-mail-theme-Kovico
-Summary:	Kovico theme for Claws-Mail
-Summary(pl.UTF-8):	Motyw Kovico dla Claws-Mail
+Summary:	Kovico-claws theme for Claws-Mail
+Summary(pl.UTF-8):	Motyw Kovico-claws dla Claws-Mail
 Group:		Themes
 Requires:	claws-mail
 Provides:	sylpheed-claws-theme-Kovico
@@ -305,6 +348,18 @@ Mozilla theme for Claws-Mail.
 
 %description -n claws-mail-theme-Mozilla -l pl.UTF-8
 Motyw Mozilla dla Claws-Mail.
+
+%package -n claws-mail-theme-Navigator
+Summary:	Navigator theme for Claws-Mail
+Summary(pl.UTF-8):	Motyw Navigator dla Claws-Mail
+Group:		Themes
+Requires:	claws-mail
+
+%description -n claws-mail-theme-Navigator
+Navigator theme for Claws-Mail.
+
+%description -n claws-mail-theme-Navigator -l pl.UTF-8
+Motyw Navigator dla Claws-Mail.
 
 %package -n claws-mail-theme-New_Session
 Summary:	New Session theme for Claws-Mail
@@ -381,21 +436,6 @@ Plain and Bluish theme for Claws-Mail.
 %description -n claws-mail-theme-Plain_and_Bluish -l pl.UTF-8
 Motyw Plain and Bluish dla Claws-Mail.
 
-%package -n claws-mail-theme-STW
-Summary:	STW theme for Claws-Mail
-Summary(pl.UTF-8):	Motyw STW dla Claws-Mail
-Group:		Themes
-Requires:	claws-mail
-Provides:	sylpheed-claws-theme-STW
-Obsoletes:	sylpheed-claws-theme-STW
-Conflicts:	sylpheed-claws-themes <= 2.3.0-1
-
-%description -n claws-mail-theme-STW
-STW theme for Claws-Mail.
-
-%description -n claws-mail-theme-STW -l pl.UTF-8
-Motyw STW dla Claws-Mail.
-
 %package -n claws-mail-theme-Skypilot-Clawssic
 Summary:	Skypilot-Clawssic theme for Claws-Mail
 Summary(pl.UTF-8):	Motyw Skypilot-Clawssic dla Claws-Mail
@@ -410,6 +450,21 @@ Skypilot-Clawssic theme for Claws-Mail.
 
 %description -n claws-mail-theme-Skypilot-Clawssic -l pl.UTF-8
 Motyw Skypilot-Clawssic dla Claws-Mail.
+
+%package -n claws-mail-theme-STW
+Summary:	STW theme for Claws-Mail
+Summary(pl.UTF-8):	Motyw STW dla Claws-Mail
+Group:		Themes
+Requires:	claws-mail
+Provides:	sylpheed-claws-theme-STW
+Obsoletes:	sylpheed-claws-theme-STW
+Conflicts:	sylpheed-claws-themes <= 2.3.0-1
+
+%description -n claws-mail-theme-STW
+STW theme for Claws-Mail.
+
+%description -n claws-mail-theme-STW -l pl.UTF-8
+Motyw STW dla Claws-Mail.
 
 %package -n claws-mail-theme-Sylpholution
 Summary:	Sylpholution theme for Claws-Mail
@@ -441,6 +496,18 @@ SylZilla theme for Claws-Mail.
 %description -n claws-mail-theme-SylZilla -l pl.UTF-8
 Motyw SylZilla dla Claws-Mail.
 
+%package -n claws-mail-theme-Tango
+Summary:	Tango theme for Claws-Mail
+Summary(pl.UTF-8):	Motyw Tango dla Claws-Mail
+Group:		Themes
+Requires:	claws-mail
+
+%description -n claws-mail-theme-Tango
+Tango theme for Claws-Mail.
+
+%description -n claws-mail-theme-Tango -l pl.UTF-8
+Motyw Tango dla Claws-Mail.
+
 %package -n claws-mail-theme-TangoClaws
 Summary:	TangoClaws theme for Claws-Mail
 Summary(pl.UTF-8):	Motyw TangoClaws dla Claws-Mail
@@ -456,20 +523,17 @@ TangoClaws theme for Claws-Mail.
 %description -n claws-mail-theme-TangoClaws -l pl.UTF-8
 Motyw TangoClaws dla Claws-Mail.
 
-%package -n claws-mail-theme-XeNtish
-Summary:	XeNtish theme for Claws-Mail
-Summary(pl.UTF-8):	Motyw XeNtish dla Claws-Mail
+%package -n claws-mail-theme-TangoOrbit
+Summary:	TangoOrbit theme for Claws-Mail
+Summary(pl.UTF-8):	Motyw TangoOrbit dla Claws-Mail
 Group:		Themes
 Requires:	claws-mail
-Provides:	sylpheed-claws-theme-XeNtish
-Obsoletes:	sylpheed-claws-theme-XeNtish
-Conflicts:	sylpheed-claws-themes <= 2.3.0-1
 
-%description -n claws-mail-theme-XeNtish
-XeNtish theme for Claws-Mail.
+%description -n claws-mail-theme-TangoOrbit
+TangoOrbit theme for Claws-Mail.
 
-%description -n claws-mail-theme-XeNtish -l pl.UTF-8
-Motyw XeNtish dla Claws-Mail.
+%description -n claws-mail-theme-TangoOrbit -l pl.UTF-8
+Motyw TangoOrbit dla Claws-Mail.
 
 %package -n claws-mail-theme-tml02c
 Summary:	tml02c theme for Claws-Mail
@@ -501,18 +565,52 @@ tom2 theme for Claws-Mail.
 %description -n claws-mail-theme-tom2 -l pl.UTF-8
 Motyw tom2 dla Claws-Mail.
 
-%prep
-%setup -q
+%package -n claws-mail-theme-UltimateClawsMail
+Summary:	UltimateClawsMail theme for Claws-Mail
+Summary(pl.UTF-8):	Motyw UltimateClawsMail dla Claws-Mail
+Group:		Themes
+Requires:	claws-mail
 
-%build
-%configure
-%{__make}
+%description -n	claws-mail-theme-UltimateClawsMail
+UltimateClawsMail theme for Claws-Mail.
+
+%description -n claws-mail-theme-UltimateClawsMail -l pl.UTF-8
+Motyw UltimateClawsMail dla Claws-Mail.
+
+%package -n claws-mail-theme-XeNtish
+Summary:	XeNtish theme for Claws-Mail
+Summary(pl.UTF-8):	Motyw XeNtish dla Claws-Mail
+Group:		Themes
+Requires:	claws-mail
+Provides:	sylpheed-claws-theme-XeNtish
+Obsoletes:	sylpheed-claws-theme-XeNtish
+Conflicts:	sylpheed-claws-themes <= 2.3.0-1
+
+%description -n claws-mail-theme-XeNtish
+XeNtish theme for Claws-Mail.
+
+%description -n claws-mail-theme-XeNtish -l pl.UTF-8
+Motyw XeNtish dla Claws-Mail.
+
+%package -n claws-mail-theme-ZX
+Summary:	ZX theme for Claws-Mail
+Summary(pl.UTF-8):	Motyw ZX dla Claws-Mail
+Group:		Themes
+Requires:	claws-mail
+
+%description -n	claws-mail-theme-ZX
+ZX theme for Claws-Mail.
+
+%description -n claws-mail-theme-ZX -l pl.UTF-8
+Motyw ZX dla Claws-Mail.
+
+%prep
 
 %install
 rm -rf $RPM_BUILD_ROOT
+install -d $RPM_BUILD_ROOT%{_themesdir}
 
-%{__make} install \
-	DESTDIR=$RPM_BUILD_ROOT
+gzip -dc %{SOURCE0} | tar -x --strip-components=1 -C $RPM_BUILD_ROOT%{_themesdir}
 
 %clean
 rm -rf $RPM_BUILD_ROOT
@@ -524,20 +622,29 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %{_themesdir}/achileus-noname
 
+%files -n claws-mail-theme-A_Ducks_Claw
+%defattr(644,root,root,755)
+%{_themesdir}/A_Ducks_Claw
+
 %files -n claws-mail-theme-Black
 %defattr(644,root,root,755)
-%doc black/README
 %{_themesdir}/black
+
+%files -n claws-mail-theme-Blaue_Klaue
+%defattr(644,root,root,755)
+%{_themesdir}/Blaue_Klaue
 
 %files -n claws-mail-theme-Blue_Anarchy
 %defattr(644,root,root,755)
-%doc blue_anarchy/README
 %{_themesdir}/blue_anarchy
 
 %files -n claws-mail-theme-Clawsola
 %defattr(644,root,root,755)
-%doc clawsola/{ChangeLog,README}
 %{_themesdir}/clawsola
+
+%files -n claws-mail-theme-Coons_Blue
+%defattr(644,root,root,755)
+%{_themesdir}/Coons_Blue-*
 
 %files -n claws-mail-theme-Crystal
 %defattr(644,root,root,755)
@@ -545,37 +652,30 @@ rm -rf $RPM_BUILD_ROOT
 
 %files -n claws-mail-theme-Everaldo_Kids
 %defattr(644,root,root,755)
-%doc Everaldo_Kids/README
 %{_themesdir}/Everaldo_Kids
 
 %files -n claws-mail-theme-Gnomaws
 %defattr(644,root,root,755)
-%doc Gnomaws-*/{ChangeLog,README}
 %{_themesdir}/Gnomaws-*
 
 %files -n claws-mail-theme-Gnomeria
 %defattr(644,root,root,755)
-%doc Gnomeria/README
 %{_themesdir}/Gnomeria
 
 %files -n claws-mail-theme-Gorillaws
 %defattr(644,root,root,755)
-%doc Gorillaws/{ChangeLog,README}
 %{_themesdir}/Gorillaws
 
 %files -n claws-mail-theme-Graphitte
 %defattr(644,root,root,755)
-%doc Graphitte-*/README
 %{_themesdir}/Graphitte-*
 
 %files -n claws-mail-theme-GurUnix
 %defattr(644,root,root,755)
-%doc GurUnix/{ChangeLog,README}
 %{_themesdir}/GurUnix
 
 %files -n claws-mail-theme-Korillaws
 %defattr(644,root,root,755)
-%doc Korillaws/{ChangeLog,README}
 %{_themesdir}/Korillaws
 
 %files -n claws-mail-theme-Kovico
@@ -596,8 +696,11 @@ rm -rf $RPM_BUILD_ROOT
 
 %files -n claws-mail-theme-Mozilla
 %defattr(644,root,root,755)
-%doc mozilla/README
 %{_themesdir}/mozilla
+
+%files -n claws-mail-theme-Navigator
+%defattr(644,root,root,755)
+%{_themesdir}/Navigator
 
 %files -n claws-mail-theme-New_Session
 %defattr(644,root,root,755)
@@ -605,50 +708,47 @@ rm -rf $RPM_BUILD_ROOT
 
 %files -n claws-mail-theme-OldDark
 %defattr(644,root,root,755)
-%{_themesdir}/Old_Dark_Theme
+%{_themesdir}/Old*
 
 %files -n claws-mail-theme-Orbit-Claws
 %defattr(644,root,root,755)
-%doc orbit-claws/README
 %{_themesdir}/orbit-claws
 
 %files -n claws-mail-theme-Phoenity
 %defattr(644,root,root,755)
-%doc Phoenity/readme.txt
 %{_themesdir}/Phoenity
 
 %files -n claws-mail-theme-Plain_and_Bluish
 %defattr(644,root,root,755)
 %{_themesdir}/Plain_and_Bluish
 
+%files -n claws-mail-theme-Skypilot-Clawssic
+%defattr(644,root,root,755)
+%{_themesdir}/Skypilot*
+
 %files -n claws-mail-theme-STW
 %defattr(644,root,root,755)
 %{_themesdir}/stw
 
-%files -n claws-mail-theme-Skypilot-Clawssic
-%defattr(644,root,root,755)
-%doc Skypilot_Clawssic/README
-%{_themesdir}/Skypilot_Clawssic
-
 %files -n claws-mail-theme-Sylpholution
 %defattr(644,root,root,755)
-%doc Sylpholution/ChangeLog*
 %{_themesdir}/Sylpholution
 
 %files -n claws-mail-theme-SylZilla
 %defattr(644,root,root,755)
-%doc SylZilla/{ChangeLog,README}
 %{_themesdir}/SylZilla
+
+%files -n claws-mail-theme-Tango
+%defattr(644,root,root,755)
+%{_themesdir}/Tango
 
 %files -n claws-mail-theme-TangoClaws
 %defattr(644,root,root,755)
-%doc TangoClaws-*/README
 %{_themesdir}/TangoClaws-*
 
-%files -n claws-mail-theme-XeNtish
+%files -n claws-mail-theme-TangoOrbit
 %defattr(644,root,root,755)
-%doc XeNtish/README
-%{_themesdir}/XeNtish
+%{_themesdir}/TangoOrbit
 
 %files -n claws-mail-theme-tml02c
 %defattr(644,root,root,755)
@@ -656,5 +756,16 @@ rm -rf $RPM_BUILD_ROOT
 
 %files -n claws-mail-theme-tom2
 %defattr(644,root,root,755)
-%doc tom_*/README
-%{_themesdir}/tom_*
+%{_themesdir}/tom_2*
+
+%files -n claws-mail-theme-UltimateClawsMail
+%defattr(644,root,root,755)
+%{_themesdir}/UltimateClawsMail*
+
+%files -n claws-mail-theme-XeNtish
+%defattr(644,root,root,755)
+%{_themesdir}/XeNtish
+
+%files -n claws-mail-theme-ZX
+%defattr(644,root,root,755)
+%{_themesdir}/ZX-*
