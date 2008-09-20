@@ -2,7 +2,7 @@ Summary:	Themes for Claws-Mail (metapackage)
 Summary(pl.UTF-8):	Motywy dla programu Claws-Mail (metapakiet)
 Name:		claws-mail-themes
 Version:	20080822
-Release:	1
+Release:	2
 License:	GPL
 Group:		Themes
 Source0:	http://www.claws-mail.org/themes/%{name}-%{version}.tar.gz
@@ -23,7 +23,7 @@ Requires:	claws-mail-theme-Gorillaws = %{version}-%{release}
 Requires:	claws-mail-theme-Graphitte = %{version}-%{release}
 Requires:	claws-mail-theme-GurUnix = %{version}-%{release}
 Requires:	claws-mail-theme-Korillaws = %{version}-%{release}
-Requires:	claws-mail-theme-Kovico-claws = %{version}-%{release}
+Requires:	claws-mail-theme-Kovico = %{version}-%{release}
 Requires:	claws-mail-theme-Logos = %{version}-%{release}
 Requires:	claws-mail-theme-Mongrel = %{version}-%{release}
 Requires:	claws-mail-theme-Mongrel2 = %{version}-%{release}
