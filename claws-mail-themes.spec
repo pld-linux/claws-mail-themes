@@ -1,18 +1,19 @@
 Summary:	Themes for Claws-Mail (metapackage)
 Summary(pl.UTF-8):	Motywy dla programu Claws-Mail (metapakiet)
 Name:		claws-mail-themes
-Version:	20080822
-Release:	2
+Version:	20090102
+Release:	1
 License:	GPL
 Group:		Themes
 Source0:	http://www.claws-mail.org/themes/%{name}-%{version}.tar.gz
-# Source0-md5:	1ee502ba40af91db38f00d4b6c374653
+# Source0-md5:	11e73467272b588701588c5596ad38a0
 URL:		http://www.claws-mail.org/themes.php
 Requires:	claws-mail-theme-Achileus-noname = %{version}-%{release}
 Requires:	claws-mail-theme-A_Ducks_Claw = %{version}-%{release}
 Requires:	claws-mail-theme-Black = %{version}-%{release}
 Requires:	claws-mail-theme-Blaue_Klaue = %{version}-%{release}
 Requires:	claws-mail-theme-Blue_Anarchy = %{version}-%{release}
+Requires:	claws-mail-theme-Buuf = %{version}-%{release}
 Requires:	claws-mail-theme-Clawsola = %{version}-%{release}
 Requires:	claws-mail-theme-Coons_Blue = %{version}-%{release}
 Requires:	claws-mail-theme-Crystal = %{version}-%{release}
@@ -22,6 +23,7 @@ Requires:	claws-mail-theme-Gnomeria = %{version}-%{release}
 Requires:	claws-mail-theme-Gorillaws = %{version}-%{release}
 Requires:	claws-mail-theme-Graphitte = %{version}-%{release}
 Requires:	claws-mail-theme-GurUnix = %{version}-%{release}
+Requires:	claws-mail-theme-Hash303030 = %{version}-%{release}
 Requires:	claws-mail-theme-Korillaws = %{version}-%{release}
 Requires:	claws-mail-theme-Kovico = %{version}-%{release}
 Requires:	claws-mail-theme-Logos = %{version}-%{release}
@@ -126,6 +128,18 @@ Blue anarchy theme for Claws-Mail.
 
 %description -n claws-mail-theme-Blue_Anarchy -l pl.UTF-8
 Motyw blue anarchy dla Claws-Mail.
+
+%package -n claws-mail-theme-Buuf
+Summary:	Buuf theme for Claws-Mail
+Summary(pl.UTF-8):	Motyw buuf dla Claws-Mail
+Group:		Themes
+Requires:	claws-mail
+
+%description -n claws-mail-theme-Buuf
+Buuf theme for Claws-Mail.
+
+%description -n claws-mail-theme-Buuf -l pl.UTF-8
+Motyw buuf dla Claws-Mail.
 
 %package -n claws-mail-theme-Clawsola
 Summary:	Clawsola theme for Claws-Mail
@@ -258,6 +272,18 @@ GurUnix theme for Claws-Mail.
 
 %description -n claws-mail-theme-GurUnix -l pl.UTF-8
 Motyw GurUnix dla Claws-Mail.
+
+%package -n claws-mail-theme-Hash303030
+Summary:	Hash303030 theme for Claws-Mail
+Summary(pl.UTF-8):	Motyw Hash303030 dla Claws-Mail
+Group:		Themes
+Requires:	claws-mail
+
+%description -n claws-mail-theme-Hash303030
+Hash303030 theme for Claws-Mail.
+
+%description -n claws-mail-theme-Hash303030 -l pl.UTF-8
+Motyw hash303030 dla Claws-Mail.
 
 %package -n claws-mail-theme-Korillaws
 Summary:	Korillaws theme for Claws-Mail
@@ -638,6 +664,10 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %{_themesdir}/blue_anarchy
 
+%files -n claws-mail-theme-Buuf
+%defattr(644,root,root,755)
+%{_themesdir}/buuf
+
 %files -n claws-mail-theme-Clawsola
 %defattr(644,root,root,755)
 %{_themesdir}/clawsola
@@ -673,6 +703,10 @@ rm -rf $RPM_BUILD_ROOT
 %files -n claws-mail-theme-GurUnix
 %defattr(644,root,root,755)
 %{_themesdir}/GurUnix
+
+%files -n claws-mail-theme-Hash303030
+%defattr(644,root,root,755)
+%{_themesdir}/hash303030
 
 %files -n claws-mail-theme-Korillaws
 %defattr(644,root,root,755)
@@ -740,7 +774,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %files -n claws-mail-theme-Tango
 %defattr(644,root,root,755)
-%{_themesdir}/Tango
+%{_themesdir}/Tango_v1.2
 
 %files -n claws-mail-theme-TangoClaws
 %defattr(644,root,root,755)
