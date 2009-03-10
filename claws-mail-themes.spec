@@ -1,12 +1,12 @@
 Summary:	Themes for Claws-Mail (metapackage)
 Summary(pl.UTF-8):	Motywy dla programu Claws-Mail (metapakiet)
 Name:		claws-mail-themes
-Version:	20090102
+Version:	20090225
 Release:	1
 License:	GPL
 Group:		Themes
 Source0:	http://www.claws-mail.org/themes/%{name}-%{version}.tar.gz
-# Source0-md5:	11e73467272b588701588c5596ad38a0
+# Source0-md5:	678f0815f52c781c4dc3f227e861b582
 URL:		http://www.claws-mail.org/themes.php
 Requires:	claws-mail-theme-Achileus-noname = %{version}-%{release}
 Requires:	claws-mail-theme-A_Ducks_Claw = %{version}-%{release}
