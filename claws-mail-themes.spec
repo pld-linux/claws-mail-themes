@@ -1,12 +1,12 @@
 Summary:	Themes for Claws-Mail (metapackage)
 Summary(pl.UTF-8):	Motywy dla programu Claws-Mail (metapakiet)
 Name:		claws-mail-themes
-Version:	20090920
+Version:	20100115
 Release:	1
 License:	GPL
 Group:		Themes
 Source0:	http://www.claws-mail.org/themes/%{name}-%{version}.tar.gz
-# Source0-md5:	6a751f4c855019513dcd41c3eba89f90
+# Source0-md5:	da68266ecbcb23ec4c6b8a357b17a5a8
 URL:		http://www.claws-mail.org/themes.php
 Requires:	claws-mail-theme-Achileus-noname = %{version}-%{release}
 Requires:	claws-mail-theme-A_Ducks_Claw = %{version}-%{release}
@@ -17,13 +17,18 @@ Requires:	claws-mail-theme-Buuf = %{version}-%{release}
 Requires:	claws-mail-theme-Clawsola = %{version}-%{release}
 Requires:	claws-mail-theme-Coons_Blue = %{version}-%{release}
 Requires:	claws-mail-theme-Crystal = %{version}-%{release}
+Requires:	claws-mail-theme-elementary = %{version}-%{release}
 Requires:	claws-mail-theme-Everaldo_Kids = %{version}-%{release}
+Requires:	claws-mail-theme-Fugue = %{version}-%{release}
 Requires:	claws-mail-theme-Gnomaws = %{version}-%{release}
+Requires:	claws-mail-theme-Gnome = %{version}-%{release}
+Requires:	claws-mail-theme-gnome-brave = %{version}-%{release}
 Requires:	claws-mail-theme-Gnomeria = %{version}-%{release}
 Requires:	claws-mail-theme-Gorillaws = %{version}-%{release}
 Requires:	claws-mail-theme-Graphitte = %{version}-%{release}
 Requires:	claws-mail-theme-GurUnix = %{version}-%{release}
 Requires:	claws-mail-theme-Hash303030 = %{version}-%{release}
+Requires:	claws-mail-theme-hydroxygen = %{version}-%{release}
 Requires:	claws-mail-theme-Korillaws = %{version}-%{release}
 Requires:	claws-mail-theme-Kovico = %{version}-%{release}
 Requires:	claws-mail-theme-Logos = %{version}-%{release}
@@ -183,6 +188,18 @@ Crystal theme for Claws-Mail.
 %description -n claws-mail-theme-Crystal -l pl.UTF-8
 Motyw Crystal dla Claws-Mail.
 
+%package -n claws-mail-theme-elementary
+Summary:	Elementary theme for Claws-Mail
+Summary(pl.UTF-8):	Motyw elementary dla Claws-Mail
+Group:		Themes
+Requires:	claws-mail
+
+%description -n	claws-mail-theme-elementary
+Elementary theme for Claws-Mail.
+
+%description -n claws-mail-theme-elementary -l pl.UTF-8
+Motyw elementary dla Claws-Mail.
+
 %package -n claws-mail-theme-Everaldo_Kids
 Summary:	Everaldo Kids theme for Claws-Mail
 Summary(pl.UTF-8):	Motyw Everaldo Kids dla Claws-Mail
@@ -198,6 +215,18 @@ Everaldo Kids theme for Claws-Mail.
 %description -n claws-mail-theme-Everaldo_Kids -l pl.UTF-8
 Motyw Everaldo Kids dla Claws-Mail.
 
+%package -n claws-mail-theme-Fugue
+Summary:	Fugue theme for Claws-Mail
+Summary(pl.UTF-8):	Motyw Fugue dla Claws-Mail
+Group:		Themes
+Requires:	claws-mail
+
+%description -n claws-mail-theme-Fugue
+Fugue theme for Claws-Mail.
+
+%description -n claws-mail-theme-Fugue -l pl.UTF-8
+Motyw Fugue dla Claws-Mail.
+
 %package -n claws-mail-theme-Gnomaws
 Summary:	Gnomaws theme for Claws-Mail
 Summary(pl.UTF-8):	Motyw Gnomaws dla Claws-Mail
@@ -212,6 +241,30 @@ Gnomaws theme for Claws-Mail.
 
 %description -n claws-mail-theme-Gnomaws -l pl.UTF-8
 Motyw Gnomaws dla Claws-Mail.
+
+%package -n claws-mail-theme-Gnome
+Summary:	Gnome theme for Claws-Mail
+Summary(pl.UTF-8):	Motyw Gnome dla Claws-Mail
+Group:		Themes
+Requires:	claws-mail
+
+%description -n claws-mail-theme-Gnome
+Gnome theme for Claws-Mail.
+
+%description -n claws-mail-theme-Gnome -l pl.UTF-8
+Motyw Gnome dla Claws-Mail.
+
+%package -n claws-mail-theme-gnome-brave
+Summary:	Gnome-brave theme for Claws-Mail
+Summary(pl.UTF-8):	Motyw Gnome-brave dla Claws-Mail
+Group:		Themes
+Requires:	claws-mail
+
+%description -n claws-mail-theme-gnome-brave
+Gnome-brave theme for Claws-Mail.
+
+%description -n claws-mail-theme-gnome-brave -l pl.UTF-8
+Motyw gnome-brave dla Claws-Mail.
 
 %package -n claws-mail-theme-Gnomeria
 Summary:	Gnomeria theme for Claws-Mail
@@ -284,6 +337,18 @@ Hash303030 theme for Claws-Mail.
 
 %description -n claws-mail-theme-Hash303030 -l pl.UTF-8
 Motyw hash303030 dla Claws-Mail.
+
+%package -n claws-mail-theme-hydroxygen
+Summary:	Hydroxygen theme for Claws-Mail
+Summary(pl.UTF-8):	Motyw hydroxygen dla Claws-Mail
+Group:		Themes
+Requires:	claws-mail
+
+%description -n claws-mail-theme-hydroxygen
+Hydroxygen theme for Claws-Mail.
+
+%description -n claws-mail-theme-hydroxygen -l pl.UTF-8
+Motyw hydroxygen dla Claws-Mail.
 
 %package -n claws-mail-theme-Korillaws
 Summary:	Korillaws theme for Claws-Mail
@@ -680,13 +745,29 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %{_themesdir}/Crystal
 
+%files -n claws-mail-theme-elementary
+%defattr(644,root,root,755)
+%{_themesdir}/elementary
+
 %files -n claws-mail-theme-Everaldo_Kids
 %defattr(644,root,root,755)
 %{_themesdir}/Everaldo_Kids
 
+%files -n claws-mail-theme-Fugue
+%defattr(644,root,root,755)
+%{_themesdir}/Fugue
+
 %files -n claws-mail-theme-Gnomaws
 %defattr(644,root,root,755)
 %{_themesdir}/Gnomaws-*
+
+%files -n claws-mail-theme-Gnome
+%defattr(644,root,root,755)
+%{_themesdir}/Gnome
+
+%files -n claws-mail-theme-gnome-brave
+%defattr(644,root,root,755)
+%{_themesdir}/gnome-brave
 
 %files -n claws-mail-theme-Gnomeria
 %defattr(644,root,root,755)
@@ -707,6 +788,10 @@ rm -rf $RPM_BUILD_ROOT
 %files -n claws-mail-theme-Hash303030
 %defattr(644,root,root,755)
 %{_themesdir}/hash303030
+
+%files -n claws-mail-theme-hydroxygen
+%defattr(644,root,root,755)
+%{_themesdir}/hydroxygen
 
 %files -n claws-mail-theme-Korillaws
 %defattr(644,root,root,755)
