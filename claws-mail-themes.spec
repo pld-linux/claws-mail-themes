@@ -1,15 +1,15 @@
 Summary:	Themes for Claws-Mail (metapackage)
 Summary(pl.UTF-8):	Motywy dla programu Claws-Mail (metapakiet)
 Name:		claws-mail-themes
-Version:	20100514
+Version:	20110216
 Release:	1
 License:	GPL
 Group:		Themes
 Source0:	http://www.claws-mail.org/themes/%{name}-%{version}.tar.gz
-# Source0-md5:	6bfd901cb30942f95aceefa30a8b0820
+# Source0-md5:	619c85d73411c70c43728ec5536e1cc2
 URL:		http://www.claws-mail.org/themes.php
-Requires:	claws-mail-theme-Achileus-noname = %{version}-%{release}
 Requires:	claws-mail-theme-A_Ducks_Claw = %{version}-%{release}
+Requires:	claws-mail-theme-Achileus-noname = %{version}-%{release}
 Requires:	claws-mail-theme-Black = %{version}-%{release}
 Requires:	claws-mail-theme-Blaue_Klaue = %{version}-%{release}
 Requires:	claws-mail-theme-Blue_Anarchy = %{version}-%{release}
@@ -17,18 +17,16 @@ Requires:	claws-mail-theme-Buuf = %{version}-%{release}
 Requires:	claws-mail-theme-Clawsola = %{version}-%{release}
 Requires:	claws-mail-theme-Coons_Blue = %{version}-%{release}
 Requires:	claws-mail-theme-Crystal = %{version}-%{release}
-Requires:	claws-mail-theme-elementary = %{version}-%{release}
 Requires:	claws-mail-theme-Everaldo_Kids = %{version}-%{release}
 Requires:	claws-mail-theme-Fugue = %{version}-%{release}
 Requires:	claws-mail-theme-Gnomaws = %{version}-%{release}
 Requires:	claws-mail-theme-Gnome = %{version}-%{release}
-Requires:	claws-mail-theme-gnome-brave = %{version}-%{release}
 Requires:	claws-mail-theme-Gnomeria = %{version}-%{release}
 Requires:	claws-mail-theme-Gorillaws = %{version}-%{release}
 Requires:	claws-mail-theme-Graphitte = %{version}-%{release}
 Requires:	claws-mail-theme-GurUnix = %{version}-%{release}
 Requires:	claws-mail-theme-Hash303030 = %{version}-%{release}
-Requires:	claws-mail-theme-hydroxygen = %{version}-%{release}
+Requires:	claws-mail-theme-HashA0A0A0 = %{version}-%{release}
 Requires:	claws-mail-theme-Korillaws = %{version}-%{release}
 Requires:	claws-mail-theme-Kovico = %{version}-%{release}
 Requires:	claws-mail-theme-Logos = %{version}-%{release}
@@ -40,18 +38,21 @@ Requires:	claws-mail-theme-OldDark = %{version}-%{release}
 Requires:	claws-mail-theme-Orbit-Claws = %{version}-%{release}
 Requires:	claws-mail-theme-Phoenity = %{version}-%{release}
 Requires:	claws-mail-theme-Plain_and_Bluish = %{version}-%{release}
-Requires:	claws-mail-theme-Skypilot-Clawssic = %{version}-%{release}
 Requires:	claws-mail-theme-STW = %{version}-%{release}
-Requires:	claws-mail-theme-Sylpholution = %{version}-%{release}
+Requires:	claws-mail-theme-Skypilot-Clawssic = %{version}-%{release}
 Requires:	claws-mail-theme-SylZilla = %{version}-%{release}
+Requires:	claws-mail-theme-Sylpholution = %{version}-%{release}
 Requires:	claws-mail-theme-Tango = %{version}-%{release}
 Requires:	claws-mail-theme-TangoClaws = %{version}-%{release}
 Requires:	claws-mail-theme-TangoOrbit = %{version}-%{release}
-Requires:	claws-mail-theme-tml02c = %{version}-%{release}
-Requires:	claws-mail-theme-tom2 = %{version}-%{release}
 Requires:	claws-mail-theme-UltimateClawsMail = %{version}-%{release}
 Requires:	claws-mail-theme-XeNtish = %{version}-%{release}
 Requires:	claws-mail-theme-ZX = %{version}-%{release}
+Requires:	claws-mail-theme-elementary = %{version}-%{release}
+Requires:	claws-mail-theme-gnome-brave = %{version}-%{release}
+Requires:	claws-mail-theme-hydroxygen = %{version}-%{release}
+Requires:	claws-mail-theme-tml02c = %{version}-%{release}
+Requires:	claws-mail-theme-tom2 = %{version}-%{release}
 Provides:	sylpheed-claws-themes = %{version}
 Obsoletes:	sylpheed-claws-themes
 BuildArch:	noarch
@@ -337,6 +338,18 @@ Hash303030 theme for Claws-Mail.
 
 %description -n claws-mail-theme-Hash303030 -l pl.UTF-8
 Motyw hash303030 dla Claws-Mail.
+
+%package -n claws-mail-theme-HashA0A0A0
+Summary:	HashA0A0A0 theme for Claws-Mail
+Summary(pl.UTF-8):	Motyw HashA0A0A0 dla Claws-Mail
+Group:		Themes
+Requires:	claws-mail
+
+%description -n claws-mail-theme-HashA0A0A0
+HashA0A0A0 theme for Claws-Mail.
+
+%description -n claws-mail-theme-HashA0A0A0 -l pl.UTF-8
+Motyw hashA0A0A0 dla Claws-Mail.
 
 %package -n claws-mail-theme-hydroxygen
 Summary:	Hydroxygen theme for Claws-Mail
@@ -788,6 +801,10 @@ rm -rf $RPM_BUILD_ROOT
 %files -n claws-mail-theme-Hash303030
 %defattr(644,root,root,755)
 %{_themesdir}/hash303030
+
+%files -n claws-mail-theme-HashA0A0A0
+%defattr(644,root,root,755)
+%{_themesdir}/hashA0A0A0
 
 %files -n claws-mail-theme-hydroxygen
 %defattr(644,root,root,755)
