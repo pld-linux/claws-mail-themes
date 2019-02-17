@@ -1,12 +1,12 @@
 Summary:	Themes for Claws-Mail (metapackage)
 Summary(pl.UTF-8):	Motywy dla programu Claws-Mail (metapakiet)
 Name:		claws-mail-themes
-Version:	20110216
+Version:	20140629
 Release:	1
 License:	GPL
 Group:		Themes
 Source0:	http://www.claws-mail.org/themes/%{name}-%{version}.tar.gz
-# Source0-md5:	619c85d73411c70c43728ec5536e1cc2
+# Source0-md5:	bb9b27435f7820819f108f9045a10426
 URL:		http://www.claws-mail.org/themes.php
 Requires:	claws-mail-theme-A_Ducks_Claw = %{version}-%{release}
 Requires:	claws-mail-theme-Achileus-noname = %{version}-%{release}
@@ -18,6 +18,7 @@ Requires:	claws-mail-theme-Clawsola = %{version}-%{release}
 Requires:	claws-mail-theme-Coons_Blue = %{version}-%{release}
 Requires:	claws-mail-theme-Crystal = %{version}-%{release}
 Requires:	claws-mail-theme-Everaldo_Kids = %{version}-%{release}
+Requires:	claws-mail-theme-FreshBlack = %{version}-%{release}
 Requires:	claws-mail-theme-Fugue = %{version}-%{release}
 Requires:	claws-mail-theme-Gnomaws = %{version}-%{release}
 Requires:	claws-mail-theme-Gnome = %{version}-%{release}
@@ -27,6 +28,7 @@ Requires:	claws-mail-theme-Graphitte = %{version}-%{release}
 Requires:	claws-mail-theme-GurUnix = %{version}-%{release}
 Requires:	claws-mail-theme-Hash303030 = %{version}-%{release}
 Requires:	claws-mail-theme-HashA0A0A0 = %{version}-%{release}
+Requires:	claws-mail-theme-KDE4ish = %{version}-%{release}
 Requires:	claws-mail-theme-Korillaws = %{version}-%{release}
 Requires:	claws-mail-theme-Kovico = %{version}-%{release}
 Requires:	claws-mail-theme-Logos = %{version}-%{release}
@@ -216,6 +218,18 @@ Everaldo Kids theme for Claws-Mail.
 %description -n claws-mail-theme-Everaldo_Kids -l pl.UTF-8
 Motyw Everaldo Kids dla Claws-Mail.
 
+%package -n claws-mail-theme-FreshBlack
+Summary:	FreshBlack theme for Claws-Mail
+Summary(pl.UTF-8):	Motyw FreshBlack dla Claws-Mail
+Group:		Themes
+Requires:	claws-mail
+
+%description -n claws-mail-theme-FreshBlack
+FreshBlack theme for Claws-Mail.
+
+%description -n claws-mail-theme-FreshBlack -l pl.UTF-8
+Motyw FreshBlack dla Claws-Mail.
+
 %package -n claws-mail-theme-Fugue
 Summary:	Fugue theme for Claws-Mail
 Summary(pl.UTF-8):	Motyw Fugue dla Claws-Mail
@@ -362,6 +376,21 @@ Hydroxygen theme for Claws-Mail.
 
 %description -n claws-mail-theme-hydroxygen -l pl.UTF-8
 Motyw hydroxygen dla Claws-Mail.
+
+%package -n claws-mail-theme-KDE4ish
+Summary:	KDE4ish theme for Claws-Mail
+Summary(pl.UTF-8):	Motyw KDE4ish dla Claws-Mail
+Group:		Themes
+Requires:	claws-mail
+Provides:	sylpheed-claws-theme-KDE4ish
+Obsoletes:	sylpheed-claws-theme-KDE4ish
+Conflicts:	sylpheed-claws-themes <= 2.3.0-1
+
+%description -n claws-mail-theme-KDE4ish
+KDE4ish theme for Claws-Mail.
+
+%description -n claws-mail-theme-KDE4ish -l pl.UTF-8
+Motyw KDE4ish dla Claws-Mail.
 
 %package -n claws-mail-theme-Korillaws
 Summary:	Korillaws theme for Claws-Mail
@@ -766,6 +795,10 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %{_themesdir}/Everaldo_Kids
 
+%files -n claws-mail-theme-FreshBlack
+%defattr(644,root,root,755)
+%{_themesdir}/FreshBlack
+
 %files -n claws-mail-theme-Fugue
 %defattr(644,root,root,755)
 %{_themesdir}/Fugue
@@ -809,6 +842,10 @@ rm -rf $RPM_BUILD_ROOT
 %files -n claws-mail-theme-hydroxygen
 %defattr(644,root,root,755)
 %{_themesdir}/hydroxygen
+
+%files -n claws-mail-theme-KDE4ish
+%defattr(644,root,root,755)
+%{_themesdir}/KDE4ish
 
 %files -n claws-mail-theme-Korillaws
 %defattr(644,root,root,755)
