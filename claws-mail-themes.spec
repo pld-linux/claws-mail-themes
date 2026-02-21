@@ -2,7 +2,7 @@ Summary:	Themes for Claws-Mail (metapackage)
 Summary(pl.UTF-8):	Motywy dla programu Claws-Mail (metapakiet)
 Name:		claws-mail-themes
 Version:	20221017
-Release:	1
+Release:	2
 License:	GPL
 Group:		Themes
 Source0:	http://www.claws-mail.org/themes/%{name}-%{version}.tar.gz
@@ -688,7 +688,6 @@ Summary(pl.UTF-8):	Motyw Papirus-Dark dla Claws-Mail (SVG)
 Group:		Themes
 Requires:	claws-mail
 Provides:	sylpheed-claws-theme-Papirus-Dark-svg
-Obsoletes:	sylpheed-claws-theme-Papirus-Dark
 Conflicts:	sylpheed-claws-themes <= 2.3.0-1
 
 %description -n claws-mail-theme-Papirus-Dark-svg
@@ -719,7 +718,6 @@ Summary(pl.UTF-8):	Motyw Papirus-Light dla Claws-Mail (SVG)
 Group:		Themes
 Requires:	claws-mail
 Provides:	sylpheed-claws-theme-Papirus-Light-svg
-Obsoletes:	sylpheed-claws-theme-Papirus-Light
 Conflicts:	sylpheed-claws-themes <= 2.3.0-1
 
 %description -n claws-mail-theme-Papirus-Light-svg
@@ -734,7 +732,6 @@ Summary(pl.UTF-8):	Motyw Papirus dla Claws-Mail (SVG)
 Group:		Themes
 Requires:	claws-mail
 Provides:	sylpheed-claws-theme-Papirus-svg
-Obsoletes:	sylpheed-claws-theme-Papirus
 Conflicts:	sylpheed-claws-themes <= 2.3.0-1
 
 %description -n claws-mail-theme-Papirus-svg
