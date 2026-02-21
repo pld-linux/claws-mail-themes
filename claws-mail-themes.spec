@@ -2,7 +2,7 @@ Summary:	Themes for Claws-Mail (metapackage)
 Summary(pl.UTF-8):	Motywy dla programu Claws-Mail (metapakiet)
 Name:		claws-mail-themes
 Version:	20221017
-Release:	2
+Release:	3
 License:	GPL
 Group:		Themes
 Source0:	http://www.claws-mail.org/themes/%{name}-%{version}.tar.gz
@@ -541,7 +541,6 @@ Summary(pl.UTF-8):	Motyw Mist dla Claws-Mail
 Group:		Themes
 Requires:	claws-mail
 Provides:	sylpheed-claws-theme-Mist
-Obsoletes:	sylpheed-claws-theme-Mist
 Conflicts:	sylpheed-claws-themes <= 2.3.0-1
 
 %description -n claws-mail-theme-Mist
@@ -658,7 +657,6 @@ Summary(pl.UTF-8):	Motyw Papirus-Dark dla Claws-Mail
 Group:		Themes
 Requires:	claws-mail
 Provides:	sylpheed-claws-theme-Papirus
-Obsoletes:	sylpheed-claws-theme-Papirus-Dark
 Conflicts:	sylpheed-claws-themes <= 2.3.0-1
 
 %description -n claws-mail-theme-Papirus
@@ -673,7 +671,6 @@ Summary(pl.UTF-8):	Motyw Papirus-Dark dla Claws-Mail
 Group:		Themes
 Requires:	claws-mail
 Provides:	sylpheed-claws-theme-Papirus-Dark
-Obsoletes:	sylpheed-claws-theme-Papirus-Dark
 Conflicts:	sylpheed-claws-themes <= 2.3.0-1
 
 %description -n claws-mail-theme-Papirus-Dark
@@ -702,7 +699,6 @@ Summary(pl.UTF-8):	Motyw Papirus-Light dla Claws-Mail
 Group:		Themes
 Requires:	claws-mail
 Provides:	sylpheed-claws-theme-Papirus-Light
-Obsoletes:	sylpheed-claws-theme-Papirus-Light
 Conflicts:	sylpheed-claws-themes <= 2.3.0-1
 
 %description -n claws-mail-theme-Papirus-Light
