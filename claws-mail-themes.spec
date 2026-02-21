@@ -1,12 +1,12 @@
 Summary:	Themes for Claws-Mail (metapackage)
 Summary(pl.UTF-8):	Motywy dla programu Claws-Mail (metapakiet)
 Name:		claws-mail-themes
-Version:	20140629
+Version:	20221017
 Release:	1
 License:	GPL
 Group:		Themes
 Source0:	http://www.claws-mail.org/themes/%{name}-%{version}.tar.gz
-# Source0-md5:	bb9b27435f7820819f108f9045a10426
+# Source0-md5:	868314a2bca501ed2719c17f5e17deba
 URL:		http://www.claws-mail.org/themes.php
 Requires:	claws-mail-theme-A_Ducks_Claw = %{version}-%{release}
 Requires:	claws-mail-theme-Achileus-noname = %{version}-%{release}
@@ -28,16 +28,24 @@ Requires:	claws-mail-theme-Graphitte = %{version}-%{release}
 Requires:	claws-mail-theme-GurUnix = %{version}-%{release}
 Requires:	claws-mail-theme-Hash303030 = %{version}-%{release}
 Requires:	claws-mail-theme-HashA0A0A0 = %{version}-%{release}
+Requires:	claws-mail-theme-Internal_mk_II = %{version}-%{release}
 Requires:	claws-mail-theme-KDE4ish = %{version}-%{release}
 Requires:	claws-mail-theme-Korillaws = %{version}-%{release}
 Requires:	claws-mail-theme-Kovico = %{version}-%{release}
 Requires:	claws-mail-theme-Logos = %{version}-%{release}
+Requires:	claws-mail-theme-Mist = %{version}-%{release}
 Requires:	claws-mail-theme-Mongrel = %{version}-%{release}
 Requires:	claws-mail-theme-Mongrel2 = %{version}-%{release}
 Requires:	claws-mail-theme-Mozilla = %{version}-%{release}
 Requires:	claws-mail-theme-New_Session = %{version}-%{release}
 Requires:	claws-mail-theme-OldDark = %{version}-%{release}
 Requires:	claws-mail-theme-Orbit-Claws = %{version}-%{release}
+Requires:	claws-mail-theme-Papirus = %{version}-%{release}
+Requires:	claws-mail-theme-Papirus-Dark = %{version}-%{release}
+Requires:	claws-mail-theme-Papirus-Dark-svg = %{version}-%{release}
+Requires:	claws-mail-theme-Papirus-Light = %{version}-%{release}
+Requires:	claws-mail-theme-Papirus-Light-svg = %{version}-%{release}
+Requires:	claws-mail-theme-Papirus-svg = %{version}-%{release}
 Requires:	claws-mail-theme-Phoenity = %{version}-%{release}
 Requires:	claws-mail-theme-Plain_and_Bluish = %{version}-%{release}
 Requires:	claws-mail-theme-STW = %{version}-%{release}
@@ -50,7 +58,13 @@ Requires:	claws-mail-theme-TangoOrbit = %{version}-%{release}
 Requires:	claws-mail-theme-UltimateClawsMail = %{version}-%{release}
 Requires:	claws-mail-theme-XeNtish = %{version}-%{release}
 Requires:	claws-mail-theme-ZX = %{version}-%{release}
+Requires:	claws-mail-theme-arc = %{version}-%{release}
+Requires:	claws-mail-theme-breeze = %{version}-%{release}
+Requires:	claws-mail-theme-ePapirus = %{version}-%{release}
+Requires:	claws-mail-theme-ePapirus-svg = %{version}-%{release}
 Requires:	claws-mail-theme-elementary = %{version}-%{release}
+Requires:	claws-mail-theme-faenza-dark = %{version}-%{release}
+Requires:	claws-mail-theme-faenza-light = %{version}-%{release}
 Requires:	claws-mail-theme-gnome-brave = %{version}-%{release}
 Requires:	claws-mail-theme-hydroxygen = %{version}-%{release}
 Requires:	claws-mail-theme-tml02c = %{version}-%{release}
@@ -197,11 +211,83 @@ Summary(pl.UTF-8):	Motyw elementary dla Claws-Mail
 Group:		Themes
 Requires:	claws-mail
 
-%description -n	claws-mail-theme-elementary
+%description -n claws-mail-theme-elementary
 Elementary theme for Claws-Mail.
 
 %description -n claws-mail-theme-elementary -l pl.UTF-8
 Motyw elementary dla Claws-Mail.
+
+%package -n claws-mail-theme-faenza-dark
+Summary:	Elementary theme for Claws-Mail
+Summary(pl.UTF-8):	Motyw faenza-dark dla Claws-Mail
+Group:		Themes
+Requires:	claws-mail
+
+%description -n claws-mail-theme-faenza-dark
+Elementary theme for Claws-Mail.
+
+%description -n claws-mail-theme-faenza-dark -l pl.UTF-8
+Motyw faenza-dark dla Claws-Mail.
+
+%package -n claws-mail-theme-faenza-light
+Summary:	Elementary theme for Claws-Mail
+Summary(pl.UTF-8):	Motyw faenza-light dla Claws-Mail
+Group:		Themes
+Requires:	claws-mail
+
+%description -n claws-mail-theme-faenza-light
+Elementary theme for Claws-Mail.
+
+%description -n claws-mail-theme-faenza-light -l pl.UTF-8
+Motyw faenza-light dla Claws-Mail.
+
+%package -n claws-mail-theme-arc
+Summary:	Elementary theme for Claws-Mail
+Summary(pl.UTF-8):	Motyw arc dla Claws-Mail
+Group:		Themes
+Requires:	claws-mail
+
+%description -n claws-mail-theme-arc
+Elementary theme for Claws-Mail.
+
+%description -n claws-mail-theme-arc -l pl.UTF-8
+Motyw arc dla Claws-Mail.
+
+%package -n claws-mail-theme-breeze
+Summary:	Elementary theme for Claws-Mail
+Summary(pl.UTF-8):	Motyw breeze dla Claws-Mail
+Group:		Themes
+Requires:	claws-mail
+
+%description -n claws-mail-theme-breeze
+Elementary theme for Claws-Mail.
+
+%description -n claws-mail-theme-breeze -l pl.UTF-8
+Motyw breeze dla Claws-Mail.
+
+%package -n claws-mail-theme-ePapirus
+Summary:	Elementary theme for Claws-Mail
+Summary(pl.UTF-8):	Motyw ePapirus dla Claws-Mail
+Group:		Themes
+Requires:	claws-mail
+
+%description -n claws-mail-theme-ePapirus
+Elementary theme for Claws-Mail.
+
+%description -n claws-mail-theme-ePapirus -l pl.UTF-8
+Motyw ePapirus dla Claws-Mail.
+
+%package -n claws-mail-theme-ePapirus-svg
+Summary:	Elementary theme for Claws-Mail (SVG)
+Summary(pl.UTF-8):	Motyw ePapirus dla Claws-Mail (SVG)
+Group:		Themes
+Requires:	claws-mail
+
+%description -n claws-mail-theme-ePapirus-svg
+Elementary theme for Claws-Mail (SVG).
+
+%description -n claws-mail-theme-ePapirus-svg -l pl.UTF-8
+Motyw ePapirus dla Claws-Mail (SVG).
 
 %package -n claws-mail-theme-Everaldo_Kids
 Summary:	Everaldo Kids theme for Claws-Mail
@@ -212,7 +298,7 @@ Provides:	sylpheed-claws-theme-Everaldo_Kids
 Obsoletes:	sylpheed-claws-theme-Everaldo_Kids
 Conflicts:	sylpheed-claws-themes <= 2.3.0-1
 
-%description -n	claws-mail-theme-Everaldo_Kids
+%description -n claws-mail-theme-Everaldo_Kids
 Everaldo Kids theme for Claws-Mail.
 
 %description -n claws-mail-theme-Everaldo_Kids -l pl.UTF-8
@@ -353,6 +439,18 @@ Hash303030 theme for Claws-Mail.
 %description -n claws-mail-theme-Hash303030 -l pl.UTF-8
 Motyw hash303030 dla Claws-Mail.
 
+%package -n claws-mail-theme-Internal_mk_II
+Summary:	Internal_mk_II theme for Claws-Mail
+Summary(pl.UTF-8):	Motyw Internal_mk_II dla Claws-Mail
+Group:		Themes
+Requires:	claws-mail
+
+%description -n claws-mail-theme-Internal_mk_II
+Internal_mk_II theme for Claws-Mail.
+
+%description -n claws-mail-theme-Internal_mk_II -l pl.UTF-8
+Motyw Internal_mk_II dla Claws-Mail.
+
 %package -n claws-mail-theme-HashA0A0A0
 Summary:	HashA0A0A0 theme for Claws-Mail
 Summary(pl.UTF-8):	Motyw HashA0A0A0 dla Claws-Mail
@@ -437,6 +535,21 @@ Logos theme for Claws-Mail.
 %description -n claws-mail-theme-Logos -l pl.UTF-8
 Motyw Logos dla Claws-Mail.
 
+%package -n claws-mail-theme-Mist
+Summary:	Mist theme for Claws-Mail
+Summary(pl.UTF-8):	Motyw Mist dla Claws-Mail
+Group:		Themes
+Requires:	claws-mail
+Provides:	sylpheed-claws-theme-Mist
+Obsoletes:	sylpheed-claws-theme-Mist
+Conflicts:	sylpheed-claws-themes <= 2.3.0-1
+
+%description -n claws-mail-theme-Mist
+Mist theme for Claws-Mail.
+
+%description -n claws-mail-theme-Mist -l pl.UTF-8
+Motyw Mist dla Claws-Mail.
+
 %package -n claws-mail-theme-Mongrel
 Summary:	Mongrel theme for Claws-Mail
 Summary(pl.UTF-8):	Motyw Mongrel dla Claws-Mail
@@ -503,7 +616,7 @@ Provides:	sylpheed-claws-theme-New_Session
 Obsoletes:	sylpheed-claws-theme-New_Session
 Conflicts:	sylpheed-claws-themes <= 2.3.0-1
 
-%description -n	claws-mail-theme-New_Session
+%description -n claws-mail-theme-New_Session
 New Session theme for Claws-Mail.
 
 %description -n claws-mail-theme-New_Session -l pl.UTF-8
@@ -538,6 +651,97 @@ Orbit-Claws theme for Claws-Mail.
 
 %description -n claws-mail-theme-Orbit-Claws -l pl.UTF-8
 Motyw Orbit-Claws dla Claws-Mail.
+
+%package -n claws-mail-theme-Papirus
+Summary:	Papirus-Dark theme for Claws-Mail
+Summary(pl.UTF-8):	Motyw Papirus-Dark dla Claws-Mail
+Group:		Themes
+Requires:	claws-mail
+Provides:	sylpheed-claws-theme-Papirus
+Obsoletes:	sylpheed-claws-theme-Papirus-Dark
+Conflicts:	sylpheed-claws-themes <= 2.3.0-1
+
+%description -n claws-mail-theme-Papirus
+Papirus-Dark theme for Claws-Mail.
+
+%description -n claws-mail-theme-Papirus -l pl.UTF-8
+Motyw Papirus-Dark dla Claws-Mail.
+
+%package -n claws-mail-theme-Papirus-Dark
+Summary:	Papirus-Dark theme for Claws-Mail
+Summary(pl.UTF-8):	Motyw Papirus-Dark dla Claws-Mail
+Group:		Themes
+Requires:	claws-mail
+Provides:	sylpheed-claws-theme-Papirus-Dark
+Obsoletes:	sylpheed-claws-theme-Papirus-Dark
+Conflicts:	sylpheed-claws-themes <= 2.3.0-1
+
+%description -n claws-mail-theme-Papirus-Dark
+Papirus-Dark theme for Claws-Mail.
+
+%description -n claws-mail-theme-Papirus-Dark -l pl.UTF-8
+Motyw Papirus-Dark dla Claws-Mail.
+
+%package -n claws-mail-theme-Papirus-Dark-svg
+Summary:	Papirus-Dark theme for Claws-Mail (SVG)
+Summary(pl.UTF-8):	Motyw Papirus-Dark dla Claws-Mail (SVG)
+Group:		Themes
+Requires:	claws-mail
+Provides:	sylpheed-claws-theme-Papirus-Dark-svg
+Obsoletes:	sylpheed-claws-theme-Papirus-Dark
+Conflicts:	sylpheed-claws-themes <= 2.3.0-1
+
+%description -n claws-mail-theme-Papirus-Dark-svg
+Papirus-Dark theme for Claws-Mail (SVG).
+
+%description -n claws-mail-theme-Papirus-Dark-svg -l pl.UTF-8
+Motyw Papirus-Dark dla Claws-Mail (SVG).
+
+%package -n claws-mail-theme-Papirus-Light
+Summary:	Papirus-Light theme for Claws-Mail
+Summary(pl.UTF-8):	Motyw Papirus-Light dla Claws-Mail
+Group:		Themes
+Requires:	claws-mail
+Provides:	sylpheed-claws-theme-Papirus-Light
+Obsoletes:	sylpheed-claws-theme-Papirus-Light
+Conflicts:	sylpheed-claws-themes <= 2.3.0-1
+
+%description -n claws-mail-theme-Papirus-Light
+Papirus-Light theme for Claws-Mail.
+
+%description -n claws-mail-theme-Papirus-Light -l pl.UTF-8
+Motyw Papirus-Light dla Claws-Mail.
+
+
+%package -n claws-mail-theme-Papirus-Light-svg
+Summary:	Papirus-Light theme for Claws-Mail (SVG)
+Summary(pl.UTF-8):	Motyw Papirus-Light dla Claws-Mail (SVG)
+Group:		Themes
+Requires:	claws-mail
+Provides:	sylpheed-claws-theme-Papirus-Light-svg
+Obsoletes:	sylpheed-claws-theme-Papirus-Light
+Conflicts:	sylpheed-claws-themes <= 2.3.0-1
+
+%description -n claws-mail-theme-Papirus-Light-svg
+Papirus-Light theme for Claws-Mail (SVG).
+
+%description -n claws-mail-theme-Papirus-Light-svg -l pl.UTF-8
+Motyw Papirus-Light dla Claws-Mail (SVG).
+
+%package -n claws-mail-theme-Papirus-svg
+Summary:	Papirus theme for Claws-Mail (SVG)
+Summary(pl.UTF-8):	Motyw Papirus dla Claws-Mail (SVG)
+Group:		Themes
+Requires:	claws-mail
+Provides:	sylpheed-claws-theme-Papirus-svg
+Obsoletes:	sylpheed-claws-theme-Papirus
+Conflicts:	sylpheed-claws-themes <= 2.3.0-1
+
+%description -n claws-mail-theme-Papirus-svg
+Papirus theme for Claws-Mail (SVG).
+
+%description -n claws-mail-theme-Papirus-svg -l pl.UTF-8
+Motyw Papirus dla Claws-Mail (SVG).
 
 %package -n claws-mail-theme-Phoenity
 Summary:	Phoenity theme for Claws-Mail
@@ -692,7 +896,7 @@ Provides:	sylpheed-claws-theme-tom2
 Obsoletes:	sylpheed-claws-theme-tom2
 Conflicts:	sylpheed-claws-themes <= 2.3.0-1
 
-%description -n	claws-mail-theme-tom2
+%description -n claws-mail-theme-tom2
 tom2 theme for Claws-Mail.
 
 %description -n claws-mail-theme-tom2 -l pl.UTF-8
@@ -704,7 +908,7 @@ Summary(pl.UTF-8):	Motyw UltimateClawsMail dla Claws-Mail
 Group:		Themes
 Requires:	claws-mail
 
-%description -n	claws-mail-theme-UltimateClawsMail
+%description -n claws-mail-theme-UltimateClawsMail
 UltimateClawsMail theme for Claws-Mail.
 
 %description -n claws-mail-theme-UltimateClawsMail -l pl.UTF-8
@@ -731,7 +935,7 @@ Summary(pl.UTF-8):	Motyw ZX dla Claws-Mail
 Group:		Themes
 Requires:	claws-mail
 
-%description -n	claws-mail-theme-ZX
+%description -n claws-mail-theme-ZX
 ZX theme for Claws-Mail.
 
 %description -n claws-mail-theme-ZX -l pl.UTF-8
@@ -744,6 +948,7 @@ rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT%{_themesdir}
 
 gzip -dc %{SOURCE0} | tar -x --strip-components=1 -C $RPM_BUILD_ROOT%{_themesdir}
+%{__rm} $RPM_BUILD_ROOT%{_themesdir}/{Makefile.am,Makefile.in,aclocal.m4,claws-mail-themes,configure,configure.ac,install-sh,missing}
 
 %clean
 rm -rf $RPM_BUILD_ROOT
@@ -790,6 +995,30 @@ rm -rf $RPM_BUILD_ROOT
 %files -n claws-mail-theme-elementary
 %defattr(644,root,root,755)
 %{_themesdir}/elementary
+
+%files -n claws-mail-theme-faenza-dark
+%defattr(644,root,root,755)
+%{_themesdir}/faenza-dark
+
+%files -n claws-mail-theme-faenza-light
+%defattr(644,root,root,755)
+%{_themesdir}/faenza-light
+
+%files -n claws-mail-theme-arc
+%defattr(644,root,root,755)
+%{_themesdir}/arc
+
+%files -n claws-mail-theme-breeze
+%defattr(644,root,root,755)
+%{_themesdir}/breeze
+
+%files -n claws-mail-theme-ePapirus
+%defattr(644,root,root,755)
+%{_themesdir}/ePapirus
+
+%files -n claws-mail-theme-ePapirus-svg
+%defattr(644,root,root,755)
+%{_themesdir}/svg-themes/ePapirus
 
 %files -n claws-mail-theme-Everaldo_Kids
 %defattr(644,root,root,755)
@@ -843,6 +1072,10 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %{_themesdir}/hydroxygen
 
+%files -n claws-mail-theme-Internal_mk_II
+%defattr(644,root,root,755)
+%{_themesdir}/Internal_mk_II
+
 %files -n claws-mail-theme-KDE4ish
 %defattr(644,root,root,755)
 %{_themesdir}/KDE4ish
@@ -858,6 +1091,10 @@ rm -rf $RPM_BUILD_ROOT
 %files -n claws-mail-theme-Logos
 %defattr(644,root,root,755)
 %{_themesdir}/Logos-*
+
+%files -n claws-mail-theme-Mist
+%defattr(644,root,root,755)
+%{_themesdir}/Mist
 
 %files -n claws-mail-theme-Mongrel
 %defattr(644,root,root,755)
@@ -887,6 +1124,31 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %{_themesdir}/orbit-claws
 
+%files -n claws-mail-theme-Papirus
+%defattr(644,root,root,755)
+%{_themesdir}/Papirus
+
+%files -n claws-mail-theme-Papirus-Dark
+%defattr(644,root,root,755)
+%{_themesdir}/Papirus-Dark
+
+
+%files -n claws-mail-theme-Papirus-Dark-svg
+%defattr(644,root,root,755)
+%{_themesdir}/svg-themes/Papirus-Dark
+
+%files -n claws-mail-theme-Papirus-Light
+%defattr(644,root,root,755)
+%{_themesdir}/Papirus-Light
+
+%files -n claws-mail-theme-Papirus-Light-svg
+%defattr(644,root,root,755)
+%{_themesdir}/svg-themes/Papirus-Light
+
+%files -n claws-mail-theme-Papirus-svg
+%defattr(644,root,root,755)
+%{_themesdir}/svg-themes/Papirus
+
 %files -n claws-mail-theme-Phoenity
 %defattr(644,root,root,755)
 %{_themesdir}/Phoenity
@@ -913,6 +1175,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %files -n claws-mail-theme-Tango
 %defattr(644,root,root,755)
+%{_themesdir}/Tango
 %{_themesdir}/Tango_v1.2.1
 
 %files -n claws-mail-theme-TangoClaws
